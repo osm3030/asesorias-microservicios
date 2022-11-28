@@ -16,7 +16,7 @@ RUN npm install
 COPY . .
 
 #Utiliza el puerto
-EXPOSE 3001
+EXPOSE 3000
 
 #Ejecuta el comando node index.js
 CMD [ "node", "index.js" ]
